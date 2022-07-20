@@ -6,6 +6,7 @@
   export let info;
   export let stats;
   export let key;
+
 </script>
 
 <div class="preview-stats" id={ key }>

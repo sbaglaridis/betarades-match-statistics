@@ -32,7 +32,7 @@
 
 <div class="preview-stats" id={ key }>
     {#if label }
-        <div class="preview-stats__title">{ label }</div>
+        <div class="xpreview-stats__title">{ label }</div>
     {/if}
 
     {#if viewport !== 'desktop' }
@@ -57,32 +57,19 @@
                             </tr>
                             <tr>
                                 <th>&nbsp;</th>
-                                <th>ΣΥΝΟΛΟ</th>
                                 <th>ΕΝΤΟΣ</th>
-                                <th>ΕΚΤΟΣ</th>
+                                <th>ΣΥΝΟΛΙΚΑ</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Θέση στη βαθμολογία</td>
-                                <td>
-                                    <div class="stats-bordered">
-                                        {(stats.hasOwnProperty(team) && stats[team] != null) ? stats[team].rank : '-'}
-                                    </div>
-                                </td>
-                                <td colspan="2">&nbsp;</td>
-                            </tr>
-                            {#each mapping as item}
+                            {#each stats as item}
                                 <tr>
-                                    <td>{ item[0] }</td>
-                                    <td class="stats-col-5">
-                                        <div class="stats-bordered">{stats[team][item[1]]}</div>
+                                    <td>{ item.label}</td>
+                                    <td class="stats-col-10">
+                                        <div class="stats-bordered">{ team === 'homeTeam' ? item['home'] : item['away'] }</div>
                                     </td>
-                                    <td class="stats-col-5">
-                                        <div class="stats-bordered">{stats[team][item[2]]}</div>
-                                    </td>
-                                    <td class="stats-col-5">
-                                        <div class="stats-bordered">{stats[team][item[3]]}</div>
+                                    <td class="stats-col-10">
+                                        <div class="stats-bordered">{ team === 'homeTeam' ? item['htotal'] : item['atotal'] }</div>
                                     </td>
                                 </tr>
                             {/each}

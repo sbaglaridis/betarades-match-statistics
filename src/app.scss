@@ -1,67 +1,50 @@
-$bct-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
+$match-stats-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
+$colors: ('w': #3d9e24, 'd': #e4c114, 'o': #4591b5, 'u': #f78d8d);
 
 :root {
-  --bct-body-color: #fff;
-  --bct-body-bg-color: #213848;
-  --bct-secondary-color: #394e5d;
-  --bct-table-nth-bg: rgba(33, 56, 72, 0.5);
-  --bct-card-spacer: 1.6rem;
-  --bct-card-border-radius: 0;
-  --bct-theme-color: #6b7f8f;
-  --bct-theme-bg-color: #213848;
-  --bct-theme-border-color: #213848;
-  --bct-theme-border-color-variation: #f4f8fc;
-  --bct-spacer: 8px;
-}
-
-.card {
-  $self: &;
-
-  color: var(--bct-body-color, #fff);
-  background-color: var(--bct-secondary-bg, #394e5d);
-  padding: var(--bct-card-spacer, 1.6rem);
-  border-radius: var(--bct-card-border-radius, 1.6rem);
-  box-shadow: $bct-box-shadow;
+  --match-stats-color: #fff;
+  --match-stats-background: #394e5d;
+  --match-stats-background-alternative: #213848;
+  --match-stats-spacer: 16px;
+  --match-stats-fz-title: 24px;
+  --match-stats-border-radius: 0;
+  --match-stats-secondary-color: #394e5d;
+  --match-stats-table-nth-bg: rgba(33, 56, 72, 0.5);
+  --match-stats-card-spacer: 1.6rem;
+  --match-stats-card-border-radius: 0;
+  --match-stats-theme-color: #6b7f8f;
+  --match-stats-theme-bg-color: #213848;
+  --match-stats-border-color: #213848;
 
   @media screen and (min-width: 576px) { //media-breakpoint-up(sm)
-    --bct-card-border-radius: 1.6rem;
+    --match-stats-border-radius: 16px;
   }
 
   @media screen and (min-width: 992px) { //media-breakpoint-up(lg)
-    --bct-card-spacer: 3.2rem;
-  }
-
-  & + & {
-    margin-top: var(--bct-card-spacer, 1.6rem);
-  }
-
-  &__title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.1rem;
-    margin: 0;
-  }
-
-  &__sub-title {
-    font-size: 1.6rem;
-    line-height: 1.2;
-    margin: 0;
-
-    &--big {
-      font-size: 2rem !important;
-    }
-  }
-
-  &--main {
-    #{$self}__title {
-      font-size: 2.4rem;
-      line-height: 2.8rem;
-    }
+    --match-stats-spacer: 32px;
   }
 }
 
+.preview-stats {
+  $self: &;
 
-.table-preview-stats {
+  color: var(--match-stats-color, #fff);
+  background-color: var(--match-stats-background, #394e5d);
+  padding: var(--match-stats-spacer, 1.6rem);
+  border-radius: var(--match-stats-border-radius, 1.6rem);
+  box-shadow: var(--match-stats-box-shadow, $match-stats-box-shadow);
+
+  & + & {
+    margin-top: var(--match-stats-spacer, 1.6rem);
+  }
+
+  &__title {
+    font-size: var(--match-stats-fz-title, 24px);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
   &__tabs {
     display: flex;
     justify-content: center;
@@ -70,7 +53,7 @@ $bct-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
   &__tabs-list {
     list-style-type: none;
     display: inline-flex;
-    background-color: var(--bct-body-bg-color);
+    background-color: var(--match-stats-background-alternative, #213848);
     border-radius: 8px;
     margin: 0;
     padding: 4px;
@@ -95,6 +78,12 @@ $bct-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
     }
   }
 
+  &__scrollbar {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
   &__table {
     width: 100%;
     font-weight: 700;
@@ -103,7 +92,15 @@ $bct-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
     border-collapse: collapse;
 
     tbody tr:nth-child(odd) td {
-      background-color: var(--bct-table-nth-bg);
+      background-color: var(--match-stats-table-nth-bg);
+    }
+
+    th {
+      color: #6b7f8f;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+      padding: 8px 4px;
     }
 
     td {
@@ -141,15 +138,213 @@ $bct-box-shadow: 0 1px 2px rgba(24, 65, 92, 0.09);
   .stats-bordered {
     display: flex;
     justify-content: center;
-    background-color: var(--bct-body-bg-color);
+    background-color: var(--match-stats-background-alternative, #213848);
     border-radius: 4px;
     padding: 8px;
   }
 
   .stats-top-header-bordered {
-    padding: var(--bct-spacer, 8px);
-    background-color: var(--bct-theme-bg-color);
-    border: 2px solid var(--bct-theme-border-color);
+    padding: 8px;
+    background-color: var(--match-stats-background-alternative, #213848);
+    border: 2px solid var(--match-stats-border-color, #213848);
     border-radius: 8px;
   }
+
+  .stats-col-1 {
+    width: 1%;
+  }
+
+  .stats-col-5 {
+    width: 5%;
+  }
+
+  .stats-col-10 {
+    width: 10%;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  .stats-left {
+    text-align: left;
+  }
+
+  .stats-center {
+    text-align: center;
+  }
+
+  .status {
+    display: inline-flex;
+    background-color: #eee;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    & + & {
+      margin-left: 5px;
+    }
+
+    @each $key, $value in $colors {
+      &.#{$key} {
+        background-color: $value;
+      }
+    }
+  }
+}
+
+.legend-1 {
+  background-color: #0ea156 !important;
+  color: white;
+}
+
+// Champions League Qualifiers
+.legend-2 {
+  background-color: #13b899 !important;
+  color: white;
+}
+
+// Europa League
+.legend-3 {
+  background-color: #0881ba !important;
+  color: white;
+}
+
+// Europa League Qualifiers
+.legend-4 {
+  background-color: #1cadf1 !important;
+  color: white;
+}
+
+// Possible Europa League
+.legend-5 {
+  background-color: #333 !important;
+  color: white;
+}
+
+// Relegation
+.legend-6 {
+  background-color: #e13636 !important;
+  color: white;
+}
+
+// Relegation Playoffs
+.legend-7 {
+  background-color: #caa210 !important;
+  color: white;
+}
+
+// Promotion
+.legend-8 {
+  background-color: #0ea156 !important;
+  color: white;
+}
+
+// Promotion Playoffs
+.legend-9 {
+  background-color: #13b899 !important;
+  color: white;
+}
+
+// Championship Round
+.legend-10 {
+  background-color: #82cc0a !important;
+  color: white;
+}
+
+// Playoffs
+.legend-11 {
+  background-color: #caa210 !important;
+  color: white;
+}
+
+// Relegation Round
+.legend-12 {
+  background-color: #caa210 !important;
+  color: white;
+}
+
+// ACF Champions League
+.legend-13 {
+  background-color: #0ea156 !important;
+  color: white;
+}
+
+// Επόμενο Γύρο
+.legend-14 {
+  background-color: #286b8a !important;
+  color: white;
+}
+
+// Copa Libertadores
+.legend-15 {
+  background-color: #0ea156 !important;
+  color: white;
+}
+
+// Copa Sudamericana
+.legend-16 {
+  background-color: #caa210 !important;
+  color: white;
+}
+
+// παιρνούν από όμιλο σε Playoff για το Europa League
+.legend-17 {
+  background-color: #408aaf !important;
+  color: white;
+}
+
+// Πιθανός σε Επόμενο Γύρο
+.legend-18 {
+  background-color: #0ea156 !important;
+  color: white;
+}
+
+// Πιθανός Υποβιβασμός
+.legend-19 {
+  background-color: #e18536 !important;
+}
+
+// Εuropa conference league
+.legend-20 {
+  background-color: #3b72a5 !important;
+}
+
+.legend-21 {
+  background-color: #4562a0 !important;
+}
+
+// Europa League Conference Qualifiers
+.legend-22 {
+  background-color: #7cc7ff !important;
+}
+
+// Προκριματικά Europa Conference League
+.legend-23 {
+  background-color: #bed957 !important;
+}
+
+// Προκριματικά Copa Libertadores
+.legend-24 {
+  background-color: #13b899 !important;
+}
+
+// Confederation Cup
+.legend-25 {
+  background-color: #13b899 !important;
+}
+
+// Arab Club Champions Cup
+.legend-26 {
+  background-color: #0881ba !important;
+}
+
+// Possible Europa Conference League
+.legend-27 {
+  background-color: #408aaf !important;
+}
+
+//AFC Champions League Qualifiers
+.legend-28 {
+  background-color: #0881ba !important;
 }
