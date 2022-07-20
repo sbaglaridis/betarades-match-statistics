@@ -1,492 +1,896 @@
 {
   "info": {
     "homeTeam": {
-      "id": "8940",
-      "name": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ"
+      "id": "3995",
+      "name": "ΝΤΑΜΠΑΡΤΟΝ"
     },
     "awayTeam": {
-      "id": "13717",
-      "name": "ΒΟΛΟΥΝΤΑΡΙ"
+      "id": "3806",
+      "name": "ΡΕΙΘ ΡΟΒΕΡΣ"
     }
   },
-  "stats01": {
+  "stats02": {
     "homeTeam": {
-      "teamId": "8940",
-      "rank": "12",
-      "tPoints": "0",
-      "hPoints": "0",
-      "aPoints": "0",
-      "tPlayed": "0",
-      "hPlayed": "0",
-      "aPlayed": "0",
-      "tWins": "0",
-      "hWins": "0",
-      "aWins": "0",
-      "tDraws": "0",
-      "hDraws": "0",
-      "aDraws": "0",
-      "tLoses": "0",
-      "hLoses": "0",
-      "aLoses": "0",
-      "tGoalsFor": "0",
-      "hGoalsFor": "0",
-      "aGoalsFor": "0",
-      "tGoalsAgainst": "0",
-      "hGoalsAgainst": "0",
-      "aGoalsAgainst": "0",
-      "tGoalsForMV": "0",
-      "hGoalsForMV": "0",
-      "aGoalsForMV": "0",
-      "tGoalsAgainstMV": "0",
-      "hGoalsAgainstMV": "0",
-      "aGoalsAgainstMV": "0"
+      "h10": [
+        {
+          "matchDateTime": "19.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΡΕΙΘ ΡΟΒΕΡΣ",
+          "htScore": "0-0",
+          "ftScore": "0-0",
+          "matchForm": "d",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "09.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΣΤΕΡΛΙΝΓΚ ΑΛΜΠΙΟΝ",
+          "htScore": "0-0",
+          "ftScore": "1-2",
+          "matchForm": "l",
+          "overUnder": "o"
+        }
+      ],
+      "ha10": [
+        {
+          "matchDateTime": "19.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΡΕΙΘ ΡΟΒΕΡΣ",
+          "htScore": "0-0",
+          "ftScore": "0-0",
+          "matchForm": "d",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "16.07.22",
+          "matchName": "ΠΙΤΕΡΧΕΝΤ - ΝΤΑΜΠΑΡΤΟΝ",
+          "htScore": "0-1",
+          "ftScore": "0-2",
+          "matchForm": "w",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "13.07.22",
+          "matchName": "ΑΜΠΕΡΝΤΙΝ - ΝΤΑΜΠΑΡΤΟΝ",
+          "htScore": "1-0",
+          "ftScore": "2-0",
+          "matchForm": "l",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "09.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΣΤΕΡΛΙΝΓΚ ΑΛΜΠΙΟΝ",
+          "htScore": "0-0",
+          "ftScore": "1-2",
+          "matchForm": "l",
+          "overUnder": "o"
+        }
+      ]
     },
     "awayTeam": {
-      "teamId": "13717",
-      "rank": "14",
-      "tPoints": "0",
-      "hPoints": "0",
-      "aPoints": "0",
-      "tPlayed": "0",
-      "hPlayed": "0",
-      "aPlayed": "0",
-      "tWins": "0",
-      "hWins": "0",
-      "aWins": "0",
-      "tDraws": "0",
-      "hDraws": "0",
-      "aDraws": "0",
-      "tLoses": "0",
-      "hLoses": "0",
-      "aLoses": "0",
-      "tGoalsFor": "0",
-      "hGoalsFor": "0",
-      "aGoalsFor": "0",
-      "tGoalsAgainst": "0",
-      "hGoalsAgainst": "0",
-      "aGoalsAgainst": "0",
-      "tGoalsForMV": "0",
-      "hGoalsForMV": "0",
-      "aGoalsForMV": "0",
-      "tGoalsAgainstMV": "0",
-      "hGoalsAgainstMV": "0",
-      "aGoalsAgainstMV": "0"
+      "a10": [
+        {
+          "matchDateTime": "19.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΡΕΙΘ ΡΟΒΕΡΣ",
+          "htScore": "0-0",
+          "ftScore": "0-0",
+          "matchForm": "d",
+          "overUnder": "u"
+        }
+      ],
+      "ah10": [
+        {
+          "matchDateTime": "19.07.22",
+          "matchName": "ΝΤΑΜΠΑΡΤΟΝ - ΡΕΙΘ ΡΟΒΕΡΣ",
+          "htScore": "0-0",
+          "ftScore": "0-0",
+          "matchForm": "d",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "16.07.22",
+          "matchName": "ΡΕΙΘ ΡΟΒΕΡΣ - ΣΤΕΡΛΙΝΓΚ ΑΛΜΠΙΟΝ",
+          "htScore": "1-1",
+          "ftScore": "1-1",
+          "matchForm": "d",
+          "overUnder": "u"
+        },
+        {
+          "matchDateTime": "13.07.22",
+          "matchName": "ΡΕΙΘ ΡΟΒΕΡΣ - ΠΙΤΕΡΧΕΝΤ",
+          "htScore": "2-0",
+          "ftScore": "6-0",
+          "matchForm": "w",
+          "overUnder": "o"
+        }
+      ]
     }
   },
-  "stats09": [
+  "stats03": {
+    "ou15f": [
+      {
+        "dummy": "1",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "2",
+        "totalUnder": "1",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "2",
+        "awayUnder": "0",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "1",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "2",
+        "totalUnder": "1",
+        "homeOverUnder": "2",
+        "homeOver": "2",
+        "homeUnder": "0",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou25f": [
+      {
+        "dummy": "2",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "2",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "1",
+        "totalUnder": "2",
+        "homeOverUnder": "2",
+        "homeOver": "1",
+        "homeUnder": "1",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou35f": [
+      {
+        "dummy": "3",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "3",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "1",
+        "totalUnder": "2",
+        "homeOverUnder": "2",
+        "homeOver": "1",
+        "homeUnder": "1",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou15fh": [
+      {
+        "dummy": "4",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "4",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "2",
+        "totalUnder": "1",
+        "homeOverUnder": "2",
+        "homeOver": "2",
+        "homeUnder": "0",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou25fh": [
+      {
+        "dummy": "5",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "5",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "2",
+        "homeOver": "0",
+        "homeUnder": "2",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou35fh": [
+      {
+        "dummy": "6",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "6",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "2",
+        "homeOver": "0",
+        "homeUnder": "2",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou15sh": [
+      {
+        "dummy": "7",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "7",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "1",
+        "totalUnder": "2",
+        "homeOverUnder": "2",
+        "homeOver": "1",
+        "homeUnder": "1",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou25sh": [
+      {
+        "dummy": "8",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "8",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "1",
+        "totalUnder": "2",
+        "homeOverUnder": "2",
+        "homeOver": "1",
+        "homeUnder": "1",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ],
+    "ou35sh": [
+      {
+        "dummy": "9",
+        "teamId": "3995",
+        "orderBy": "0",
+        "totalOverUnder": "3",
+        "totalOver": "0",
+        "totalUnder": "3",
+        "homeOverUnder": "1",
+        "homeOver": "0",
+        "homeUnder": "1",
+        "awayOverUnder": "2",
+        "awayOver": "0",
+        "awayUnder": "2",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ"
+      },
+      {
+        "dummy": "9",
+        "teamId": "3806",
+        "orderBy": "1",
+        "totalOverUnder": "3",
+        "totalOver": "1",
+        "totalUnder": "2",
+        "homeOverUnder": "2",
+        "homeOver": "1",
+        "homeUnder": "1",
+        "awayOverUnder": "1",
+        "awayOver": "0",
+        "awayUnder": "1",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ"
+      }
+    ]
+  },
+  "stats04": {
+    "ha": [
+      {
+        "dummy": "1",
+        "teamId": "3995",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "orderBy": "0",
+        "played": "1",
+        "goalGoal": "0",
+        "noGoal": "1",
+        "goals01": "1",
+        "goals23": "0",
+        "goals46": "0",
+        "goals7": "0",
+        "winsHt": "0",
+        "drawsHt": "1",
+        "losesHt": "0"
+      },
+      {
+        "dummy": "1",
+        "teamId": "3806",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "orderBy": "1",
+        "played": "1",
+        "goalGoal": "0",
+        "noGoal": "1",
+        "goals01": "1",
+        "goals23": "0",
+        "goals46": "0",
+        "goals7": "0",
+        "winsHt": "0",
+        "drawsHt": "1",
+        "losesHt": "0"
+      }
+    ],
+    "t": [
+      {
+        "dummy": "2",
+        "teamId": "3995",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "orderBy": "0",
+        "played": "3",
+        "goalGoal": "0",
+        "noGoal": "3",
+        "goals01": "1",
+        "goals23": "2",
+        "goals46": "0",
+        "goals7": "0",
+        "winsHt": "1",
+        "drawsHt": "1",
+        "losesHt": "1"
+      },
+      {
+        "dummy": "2",
+        "teamId": "3806",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "orderBy": "1",
+        "played": "3",
+        "goalGoal": "1",
+        "noGoal": "2",
+        "goals01": "1",
+        "goals23": "1",
+        "goals46": "1",
+        "goals7": "0",
+        "winsHt": "0",
+        "drawsHt": "2",
+        "losesHt": "1"
+      }
+    ]
+  },
+  "stats05": {
+    "ha": [
+      {
+        "dummy": "1",
+        "teamId": "3995",
+        "teamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "orderBy": "0",
+        "played": "1",
+        "winWin": "0",
+        "drawWin": "0",
+        "loseWin": "0",
+        "winDraw": "0",
+        "drawDraw": "1",
+        "loseDraw": "0",
+        "winLose": "0",
+        "drawLose": "0",
+        "loseLose": "0"
+      },
+      {
+        "dummy": "1",
+        "teamId": "3806",
+        "teamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "orderBy": "1",
+        "played": "1",
+        "winWin": "0",
+        "drawWin": "0",
+        "loseWin": "0",
+        "winDraw": "0",
+        "drawDraw": "1",
+        "loseDraw": "0",
+        "winLose": "0",
+        "drawLose": "0",
+        "loseLose": "0"
+      }
+    ]
+  },
+  "stats06": {
+    "has": {
+      "rows": {
+        "1630": {
+          "label": "16-30'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "3145": {
+          "label": "31-45'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "4660": {
+          "label": "46-60'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "6175": {
+          "label": "61-75'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "7690": {
+          "label": "76-90'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "015": {
+          "label": "0-15'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        }
+      },
+      "homeGoals": "0",
+      "awayGoals": "0"
+    },
+    "ts": {
+      "rows": {
+        "1630": {
+          "label": "16-30'",
+          "goals1": "1/2",
+          "goals1p": 50,
+          "goals2": "2/7",
+          "goals2p": 29
+        },
+        "3145": {
+          "label": "31-45'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "1/7",
+          "goals2p": 14
+        },
+        "4660": {
+          "label": "46-60'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "1/7",
+          "goals2p": 14
+        },
+        "6175": {
+          "label": "61-75'",
+          "goals1": "1/2",
+          "goals1p": 50,
+          "goals2": "2/7",
+          "goals2p": 29
+        },
+        "7690": {
+          "label": "76-90'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "1/7",
+          "goals2p": 14
+        },
+        "015": {
+          "label": "0-15'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "0/7",
+          "goals2p": 0
+        }
+      },
+      "homeGoals": "2",
+      "awayGoals": "7"
+    },
+    "hac": {
+      "rows": {
+        "1630": {
+          "label": "16-30'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "3145": {
+          "label": "31-45'",
+          "goals1": "1/0",
+          "goals1p": 0,
+          "goals2": "1/0",
+          "goals2p": 0
+        },
+        "4660": {
+          "label": "46-60'",
+          "goals1": "1/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "6175": {
+          "label": "61-75'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "7690": {
+          "label": "76-90'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        },
+        "015": {
+          "label": "0-15'",
+          "goals1": "0/0",
+          "goals1p": 0,
+          "goals2": "0/0",
+          "goals2p": 0
+        }
+      },
+      "homeGoals": "0",
+      "awayGoals": "0"
+    },
+    "tc": {
+      "rows": {
+        "1630": {
+          "label": "16-30'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "0/1",
+          "goals2p": 0
+        },
+        "3145": {
+          "label": "31-45'",
+          "goals1": "1/2",
+          "goals1p": 50,
+          "goals2": "1/1",
+          "goals2p": 100
+        },
+        "4660": {
+          "label": "46-60'",
+          "goals1": "1/2",
+          "goals1p": 50,
+          "goals2": "0/1",
+          "goals2p": 0
+        },
+        "6175": {
+          "label": "61-75'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "0/1",
+          "goals2p": 0
+        },
+        "7690": {
+          "label": "76-90'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "0/1",
+          "goals2p": 0
+        },
+        "015": {
+          "label": "0-15'",
+          "goals1": "0/2",
+          "goals1p": 0,
+          "goals2": "0/1",
+          "goals2p": 0
+        }
+      },
+      "homeGoals": "2",
+      "awayGoals": "1"
+    }
+  },
+  "stats08": [
     {
-      "rank": "1",
-      "teamId": "127",
-      "points": "3",
-      "played": "1",
-      "wins": "1",
-      "draws": "0",
-      "loses": "0",
-      "goals": "1-0",
-      "teamName": "ΚΛΟΥΖ",
-      "matchForm": "w",
-      "overUnderForm": "u",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Σκοράρει στα τελευταία",
+      "home": 0,
+      "htotal": 0,
+      "away": 0,
+      "atotal": 0
     },
     {
-      "rank": "2",
-      "teamId": "3537",
-      "points": "3",
-      "played": "1",
-      "wins": "1",
-      "draws": "0",
-      "loses": "0",
-      "goals": "2-0",
-      "teamName": "ΑΡΓΚΕΣ",
-      "matchForm": "w",
-      "overUnderForm": "u",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Δέχεται γκολ",
+      "home": 0,
+      "htotal": 0,
+      "away": 0,
+      "atotal": 0
     },
     {
-      "rank": "3",
-      "teamId": "10059",
-      "points": "3",
-      "played": "1",
-      "wins": "1",
-      "draws": "0",
-      "loses": "0",
-      "goals": "2-1",
-      "teamName": "ΦΑΡΟΥΛ",
-      "matchForm": "w",
-      "overUnderForm": "o",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Χωρίς να σκοράρει",
+      "home": 1,
+      "htotal": 1,
+      "away": 1,
+      "atotal": 1
     },
     {
-      "rank": "4",
-      "teamId": "17009",
-      "points": "3",
-      "played": "1",
-      "wins": "1",
-      "draws": "0",
-      "loses": "0",
-      "goals": "3-0",
-      "teamName": "ΧΕΡΜΑΝΣΤΑΝΤ",
-      "matchForm": "w",
-      "overUnderForm": "o",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Χωρίς να δεχθεί γκολ",
+      "home": 1,
+      "htotal": 2,
+      "away": 1,
+      "atotal": 1
     },
     {
-      "rank": "5",
-      "teamId": "2816",
-      "points": "1",
-      "played": "1",
-      "wins": "0",
-      "draws": "1",
-      "loses": "0",
-      "goals": "1-1",
-      "teamName": "ΟΥΝΙΒΕΡΣΙΤΑΤΕΑ ΚΛΟΥΖ",
-      "matchForm": "d",
-      "overUnderForm": "u",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Συνεχόμενες Νίκες",
+      "home": 0,
+      "htotal": 0,
+      "away": 0,
+      "atotal": 0
     },
     {
-      "rank": "6",
-      "teamId": "3440",
-      "points": "1",
-      "played": "1",
-      "wins": "0",
-      "draws": "1",
-      "loses": "0",
-      "goals": "1-1",
-      "teamName": "ΣΤΕΑΟΥΑ ΒΟΥΚΟΥΡΕΣΤΙΟΥ",
-      "matchForm": "d",
-      "overUnderForm": "u",
-      "legend": "10",
-      "legendValue": "Championship Round"
+      "label": "Χωρίς Ήττα",
+      "home": 1,
+      "htotal": 2,
+      "away": 1,
+      "atotal": 3
     },
     {
-      "rank": "7",
-      "teamId": "12914",
-      "points": "1",
-      "played": "1",
-      "wins": "0",
-      "draws": "1",
-      "loses": "0",
-      "goals": "2-2",
-      "teamName": "ΚΡΑΪΟΒΑ",
-      "matchForm": "d",
-      "overUnderForm": "o",
-      "legend": "12",
-      "legendValue": "Relegation Round"
+      "label": "Συνεχόμενες Ήττες",
+      "home": 0,
+      "htotal": 0,
+      "away": 0,
+      "atotal": 0
     },
     {
-      "rank": "8",
-      "teamId": "16113",
-      "points": "1",
-      "played": "1",
-      "wins": "0",
-      "draws": "1",
-      "loses": "0",
-      "goals": "2-2",
-      "teamName": "ΣΕΠΣΙ OSK ΣΦΑΝΤΟΥ",
-      "matchForm": "d",
-      "overUnderForm": "o",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "9",
-      "teamId": "2821",
-      "points": "0",
-      "played": "1",
-      "wins": "0",
-      "draws": "0",
-      "loses": "1",
-      "goals": "0-3",
-      "teamName": "ΜΙΟΒΕΝΙ",
-      "matchForm": "l",
-      "overUnderForm": "o",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "10",
-      "teamId": "2892",
-      "points": "0",
-      "played": "0",
-      "wins": "0",
-      "draws": "0",
-      "loses": "0",
-      "goals": "0-0",
-      "teamName": "ΜΠΟΤΟΣΑΝΙ",
-      "matchForm": "",
-      "overUnderForm": "",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "11",
-      "teamId": "3531",
-      "points": "0",
-      "played": "1",
-      "wins": "0",
-      "draws": "0",
-      "loses": "1",
-      "goals": "0-1",
-      "teamName": "ΡΑΠΙΝΤ ΒΟΥΚΟΥΡΕΣΤΙΟΥ",
-      "matchForm": "l",
-      "overUnderForm": "u",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "12",
-      "teamId": "8940",
-      "points": "0",
-      "played": "0",
-      "wins": "0",
-      "draws": "0",
-      "loses": "0",
-      "goals": "0-0",
-      "teamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-      "matchForm": "",
-      "overUnderForm": "",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "13",
-      "teamId": "10924",
-      "points": "0",
-      "played": "0",
-      "wins": "0",
-      "draws": "0",
-      "loses": "0",
-      "goals": "0-0",
-      "teamName": "ΤΣΙΝΤΙΑ ΤΑΡΓΚΟΒΙΣΤΕ",
-      "matchForm": "",
-      "overUnderForm": "",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "14",
-      "teamId": "13717",
-      "points": "0",
-      "played": "0",
-      "wins": "0",
-      "draws": "0",
-      "loses": "0",
-      "goals": "0-0",
-      "teamName": "ΒΟΛΟΥΝΤΑΡΙ",
-      "matchForm": "",
-      "overUnderForm": "",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "15",
-      "teamId": "15213",
-      "points": "0",
-      "played": "1",
-      "wins": "0",
-      "draws": "0",
-      "loses": "1",
-      "goals": "0-2",
-      "teamName": "ΑΡΑΝΤ",
-      "matchForm": "l",
-      "overUnderForm": "u",
-      "legend": "12",
-      "legendValue": "Relegation Round"
-    },
-    {
-      "rank": "16",
-      "teamId": "20250",
-      "points": "0",
-      "played": "1",
-      "wins": "0",
-      "draws": "0",
-      "loses": "1",
-      "goals": "1-2",
-      "teamName": "ΚΡΑΪΟΒΑ 1948",
-      "matchForm": "l",
-      "overUnderForm": "o",
-      "legend": "12",
-      "legendValue": "Relegation Round"
+      "label": "Χωρίς Νίκη",
+      "home": 1,
+      "htotal": 1,
+      "away": 1,
+      "atotal": 2
     }
   ],
   "stats10": [
     {
-      "matchDateTime1": "23.07.22",
-      "matchName1": "ΑΡΑΝΤ - ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-      "matchDateTime2": "23.07.22",
-      "matchName2": "ΒΟΛΟΥΝΤΑΡΙ - ΜΠΟΤΟΣΑΝΙ"
-    },
-    {
-      "matchDateTime1": "31.07.22",
-      "matchName1": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ - ΣΕΠΣΙ OSK ΣΦΑΝΤΟΥ",
-      "matchDateTime2": "30.07.22",
-      "matchName2": "ΒΟΛΟΥΝΤΑΡΙ - ΑΡΑΝΤ"
-    },
-    {
-      "matchDateTime1": "06.08.22",
-      "matchName1": "ΟΥΝΙΒΕΡΣΙΤΑΤΕΑ ΚΛΟΥΖ - ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-      "matchDateTime2": "06.08.22",
-      "matchName2": "ΧΕΡΜΑΝΣΤΑΝΤ - ΒΟΛΟΥΝΤΑΡΙ"
-    },
-    {
-      "matchDateTime1": "13.08.22",
-      "matchName1": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ - ΡΑΠΙΝΤ ΒΟΥΚΟΥΡΕΣΤΙΟΥ",
-      "matchDateTime2": "13.08.22",
-      "matchName2": "ΒΟΛΟΥΝΤΑΡΙ - ΣΕΠΣΙ OSK ΣΦΑΝΤΟΥ"
-    },
-    {
-      "matchDateTime1": "20.08.22",
-      "matchName1": "ΚΡΑΪΟΒΑ 1948 - ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-      "matchDateTime2": "20.08.22",
-      "matchName2": "ΦΑΡΟΥΛ - ΒΟΛΟΥΝΤΑΡΙ"
-    },
-    {
-      "matchDateTime1": "27.08.22",
-      "matchName1": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ - ΜΙΟΒΕΝΙ",
-      "matchDateTime2": "27.08.22",
-      "matchName2": "ΒΟΛΟΥΝΤΑΡΙ - ΟΥΝΙΒΕΡΣΙΤΑΤΕΑ ΚΛΟΥΖ"
+      "matchDateTime2": "24.07.22",
+      "matchName2": "ΑΜΠΕΡΝΤΙΝ - ΡΕΙΘ ΡΟΒΕΡΣ"
     }
   ],
   "stats11": {
     "homeTeam": [
       {
-        "matchDateTime": "06.07.22 10:30",
-        "competitionName": "Φιλικά Συλλόγων",
-        "type": "win",
-        "homeTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-        "awayTeamName": "ΦΑΡΟΥΛ",
-        "ht1": "0",
-        "ht2": "0",
-        "ft1": "2",
-        "ft2": "1"
-      },
-      {
-        "matchDateTime": "29.06.22 17:00",
-        "competitionName": "Φιλικά Συλλόγων",
-        "type": "win",
-        "homeTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-        "awayTeamName": "ΑΛ ΜΑΡΚΙΓΙΑ",
-        "ht1": "0",
-        "ht2": "0",
-        "ft1": "2",
-        "ft2": "1"
-      },
-      {
-        "matchDateTime": "15.05.22 16:00",
-        "competitionName": "",
+        "matchDateTime": "19.07.22 21:45",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
         "type": "draw",
-        "homeTeamName": "ΟΥΝΙΡΕΑ",
-        "awayTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
+        "homeTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "awayTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
         "ht1": "0",
         "ht2": "0",
         "ft1": "0",
         "ft2": "0"
       },
       {
-        "matchDateTime": "09.05.22 17:30",
-        "competitionName": "",
+        "matchDateTime": "16.07.22 17:00",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
         "type": "win",
-        "homeTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-        "awayTeamName": "ΚΟΝΚΟΡΝΤΙΑ",
+        "homeTeamName": "ΠΙΤΕΡΧΕΝΤ",
+        "awayTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "ht1": "0",
+        "ht2": "1",
+        "ft1": "0",
+        "ft2": "2"
+      },
+      {
+        "matchDateTime": "13.07.22 21:45",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
+        "type": "lose",
+        "homeTeamName": "ΑΜΠΕΡΝΤΙΝ",
+        "awayTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
         "ht1": "1",
         "ht2": "0",
         "ft1": "2",
         "ft2": "0"
       },
       {
-        "matchDateTime": "05.05.22 20:00",
-        "competitionName": "",
-        "type": "draw",
-        "homeTeamName": "ΧΕΡΜΑΝΣΤΑΝΤ",
-        "awayTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-        "ht1": "1",
+        "matchDateTime": "09.07.22 17:00",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
+        "type": "lose",
+        "homeTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "awayTeamName": "ΣΤΕΡΛΙΝΓΚ ΑΛΜΠΙΟΝ",
+        "ht1": "0",
         "ht2": "0",
         "ft1": "1",
-        "ft2": "1"
+        "ft2": "2"
       },
       {
-        "matchDateTime": "01.05.22 14:30",
-        "competitionName": "",
-        "type": "draw",
-        "homeTeamName": "ΠΕΤΡΟΛΟΥΛ 52 ΠΛΟΪΕΣΤΙ",
-        "awayTeamName": "CSA ΣΤΕΑΟΥΑ",
+        "matchDateTime": "05.07.22 21:45",
+        "competitionName": "Φιλικά Συλλόγων",
+        "type": "win",
+        "homeTeamName": "ΓΟΥΟΚΡΙΝΓΚΤΟΝ",
+        "awayTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
         "ht1": "0",
-        "ht2": "0",
+        "ht2": "3",
         "ft1": "0",
-        "ft2": "0"
+        "ft2": "3"
+      },
+      {
+        "matchDateTime": "02.07.22 16:00",
+        "competitionName": "Φιλικά Συλλόγων",
+        "type": "win",
+        "homeTeamName": "ΓΚΡΕΤΝΑ 2008",
+        "awayTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "ht1": "2",
+        "ht2": "2",
+        "ft1": "2",
+        "ft2": "3"
       }
     ],
     "awayTeam": [
       {
-        "matchDateTime": "07.07.22 19:00",
-        "competitionName": "Φιλικά Συλλόγων",
+        "matchDateTime": "19.07.22 21:45",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
         "type": "draw",
-        "homeTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
-        "awayTeamName": "ΚΑΡΜΙΩΤΙΣΣΑ ΠΟΛΕΜΙΔΙΩΝ",
+        "homeTeamName": "ΝΤΑΜΠΑΡΤΟΝ",
+        "awayTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
         "ht1": "0",
-        "ht2": "1",
-        "ft1": "1",
-        "ft2": "1"
-      },
-      {
-        "matchDateTime": "05.07.22 18:00",
-        "competitionName": "Φιλικά Συλλόγων",
-        "type": "lose",
-        "homeTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
-        "awayTeamName": "ΧΑΠΟΕΛ ΜΠΙΡ-ΣΙΒΑ",
-        "ht1": "1",
-        "ht2": "2",
-        "ft1": "1",
-        "ft2": "4"
-      },
-      {
-        "matchDateTime": "02.07.22 18:00",
-        "competitionName": "Φιλικά Συλλόγων",
-        "type": "lose",
-        "homeTeamName": "ΓΚΟΡΝΙΚ ΛΕΤΖΝΑ",
-        "awayTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
-        "ht1": "1",
         "ht2": "0",
-        "ft1": "2",
-        "ft2": "1"
-      },
-      {
-        "matchDateTime": "23.05.22 20:30",
-        "competitionName": "Α' Ρουμανίας Όμιλος Πρωταθλητή",
-        "type": "win",
-        "homeTeamName": "ΑΡΓΚΕΣ",
-        "awayTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
-        "ht1": "0",
-        "ht2": "1",
         "ft1": "0",
+        "ft2": "0"
+      },
+      {
+        "matchDateTime": "16.07.22 17:00",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
+        "type": "draw",
+        "homeTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "awayTeamName": "ΣΤΕΡΛΙΝΓΚ ΑΛΜΠΙΟΝ",
+        "ht1": "1",
+        "ht2": "1",
+        "ft1": "1",
         "ft2": "1"
       },
       {
-        "matchDateTime": "19.05.22 20:30",
-        "competitionName": "Κύπελλο Ρουμανίας",
-        "type": "lose",
-        "homeTeamName": "ΣΕΠΣΙ OSK ΣΦΑΝΤΟΥ",
-        "awayTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
+        "matchDateTime": "13.07.22 21:45",
+        "competitionName": "Λιγκ Καπ Σκωτίας",
+        "type": "win",
+        "homeTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "awayTeamName": "ΠΙΤΕΡΧΕΝΤ",
         "ht1": "2",
         "ht2": "0",
-        "ft1": "2",
+        "ft1": "6",
+        "ft2": "0"
+      },
+      {
+        "matchDateTime": "09.07.22 14:00",
+        "competitionName": "Φιλικά Συλλόγων",
+        "type": "win",
+        "homeTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "awayTeamName": "ΑΛΟΑ ΑΘΛΕΤΙΚ",
+        "ht1": "0",
+        "ht2": "0",
+        "ft1": "4",
+        "ft2": "0"
+      },
+      {
+        "matchDateTime": "02.07.22 17:00",
+        "competitionName": "Φιλικά Συλλόγων",
+        "type": "draw",
+        "homeTeamName": "ΚΕΛΤΙ ΧΑΡΤΣ",
+        "awayTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "ht1": "0",
+        "ht2": "1",
+        "ft1": "1",
         "ft2": "1"
       },
       {
-        "matchDateTime": "14.05.22 21:00",
-        "competitionName": "Α' Ρουμανίας Όμιλος Πρωταθλητή",
-        "type": "draw",
-        "homeTeamName": "ΒΟΛΟΥΝΤΑΡΙ",
-        "awayTeamName": "ΣΤΕΑΟΥΑ ΒΟΥΚΟΥΡΕΣΤΙΟΥ",
-        "ht1": "1",
-        "ht2": "1",
-        "ft1": "2",
+        "matchDateTime": "29.06.22 21:45",
+        "competitionName": "Φιλικά Συλλόγων",
+        "type": "lose",
+        "homeTeamName": "ΡΕΙΘ ΡΟΒΕΡΣ",
+        "awayTeamName": "ΚΟΥΙΝ ΟΦ ΣΑΟΥΘ",
+        "ht1": "0",
+        "ht2": "0",
+        "ft1": "1",
         "ft2": "2"
       }
     ]
